@@ -12,7 +12,7 @@ Use the following list for the questions:
 
 ### How would I access the third element in the list? 
 
-`my_list[3]` #Your answer here (remember to commit after editing this line to contain your answer!)
+`my_list[2]` #Your answer here (remember to commit after editing this line to contain your answer!)
 
 ### How would I access the element at index 3? 
 
@@ -20,7 +20,7 @@ Use the following list for the questions:
 
 ### What would I get if I did my_list[1]?
 
-- Your answer here (remember to commit after editing this line to contain your answer!)
+#2 - Your answer here (remember to commit after editing this line to contain your answer!)
 
 ### What are three ways I could access the last element of the list?
 *(HINT: Look up the len method for Python lists.)*
