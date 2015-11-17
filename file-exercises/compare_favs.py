@@ -1,20 +1,18 @@
-christina_file = open("christina_fav_foods.txt")
-christina_fav = christina_file.readlines() 
-christina_file.close()
+def convert_files_to_list(file): 
+	open_files = open(file)
+	favorites = open_files.readlines() 
+	open_files.close()
+	return favorites 
 
-kelsey_file = open("kelsey_fav_foods.txt")
-kelsey_fav = kelsey_file.readlines()
-kelsey_file.close()
-
-#both_files = open("christina_fav_foods.txt"), open("kelsey_fav_foods.txt") 
-#both_favs = both_files.readlines() 
-#both_favs.close()
-#print both_favs
+christina_fav = convert_files_to_list("christina_fav_foods.txt")
+kelsey_fav = convert_files_to_list("kelsey_fav_foods.txt")
 
 def compare_favs(list1, list2):
-	if (christina_fav[0] == kelsey_fav[0]):
+	if (list1[0] == list2[0]):
 		print "Our favorite foods are the same!"
 	else:
 		print "Our favorite foods are different"	
 
 compare_favs(christina_fav, kelsey_fav)
+
+#def compare_favs2()
