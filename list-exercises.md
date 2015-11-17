@@ -20,12 +20,14 @@ Use the following list for the questions:
 
 ### What would I get if I did my_list[1]?
 
-#2 - Your answer here (remember to commit after editing this line to contain your answer!)
+`int(2)` - Your answer here (remember to commit after editing this line to contain your answer!)
 
 ### What are three ways I could access the last element of the list?
 *(HINT: Look up the len method for Python lists.)*
 
-- Your answer here (remember to commit after editing this line to contain your answer!)
+`my_list[4]' #Your answer here (remember to commit after editing this line to contain your answer!)
+`my_list[-1]` 
+`len(my_list)`
 
 ### How would I find the length of the list?
 
